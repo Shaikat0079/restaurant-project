@@ -16,9 +16,10 @@
   border-radius: 8px;
   border: none;
   background: rgb(82, 195, 3);
+  cursor: pointer;
 }
-.btn-container{
-    text-align: center;
+.btn-container {
+  text-align: center;
 }
 #hero {
   /* background-color: tomato; */
@@ -42,10 +43,10 @@
   width: 685px;
   /* margin: 0 auto; */
 }
-.hero-content{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 #hero .hero-content .subtitle {
   /* opacity: 0.8; */
@@ -76,4 +77,57 @@
   line-height: 16px;
   letter-spacing: 0%;
   text-align: center;
+}
+
+#card-box {
+  width: 885px;
+  margin: 100px auto;
+}
+
+#card-box .title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#card-box .subtitle {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card-container {
+  margin-top: 30px;
+  display: flex;
+  /* flex-direction: ; */
+  justify-content: space-between;
+  gap: 20px;
+  font-family:"Work Sans", serif;
+}
+.card {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.card .img-box {
+  width: 250px;
+}
+
+.card .img-box img {
+  width: 100%;
+}
+.card .shop {
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+  padding: 14px 32px 14px 32px;
 }
